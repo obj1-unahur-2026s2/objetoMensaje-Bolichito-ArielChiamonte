@@ -84,3 +84,40 @@ object placa{
     method material() { return cobre }   
 
 }
+
+object arito{
+    method color() { return celeste }
+
+    method material() { return cobre }   
+
+    method peso() { return 180 }
+}
+
+object banquito{
+
+    var color = naranja
+
+    method color() { return color }
+
+    method cambiarColor(nuevoColor) { color = nuevoColor }
+
+    method material() { return madera }   
+
+    method peso() { return 1700 }
+}
+
+object cajita{
+
+    var objetoAdentro = banquito
+
+    method color() { return rojo }
+
+    method material() { return cobre }   
+
+    method peso() { return 400 + objetoAdentro.peso() }
+
+    method guardarAdentro(nuevoObjeto) { 
+		objetoAdentro = nuevoObjeto 
+	}
+}
+
