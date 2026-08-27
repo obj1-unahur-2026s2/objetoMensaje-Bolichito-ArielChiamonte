@@ -39,3 +39,48 @@ object remera{
 
     method peso() { return 800 }
 }
+
+object pelota{
+
+    method material() { return cuero }   
+
+    method peso() { return 1300 }
+}
+
+object bibloteca{
+    method color() { return verde }
+
+    method material() { return madera }   
+
+    method peso() { return 8000 }
+}
+
+object munieco{
+    var peso = 0 
+
+    method peso() { return peso }
+
+    method cambiarPeso(nuevoPeso) { peso = nuevoPeso }
+
+    method color() { return celeste }
+
+    method material() { return vidrio }   
+
+    
+}
+
+object placa{
+    var color = rojo
+    var peso = 0 
+
+    method peso() { return peso }
+
+    method cambiarPeso(nuevoPeso) { peso = nuevoPeso }
+
+    method color() { return color }
+
+    method cambiarColor(nuevoColor) { color = nuevoColor }
+
+    method material() { return cobre }   
+
+}
