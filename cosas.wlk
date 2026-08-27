@@ -31,3 +31,11 @@ object madera {
 object lino {
 	method brilla() { return false }
 }
+
+object remera{
+    method color() { return rojo }
+
+    method material() { return lino }   
+
+    method peso() { return 800 }
+}
